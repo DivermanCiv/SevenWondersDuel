@@ -1,0 +1,56 @@
+# Ignore meta files from specific Unity features that generate large files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Ignore auto-generated files in the Unity project
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*
+
+# Ignore crash reports, temporary files, and similar files
+/[Cc]rash[Rr]eports/
+/[Ss]cript[Aa]ssembly/
+/*.bak
+*.log
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.sln.dotSettings
+
+# Ignore packages
+/Packages/manifest.json
+/Packages/packages-lock.json
+
+# Ignore local builds
+/Builds/
+/[Bb]uild/[Ww]eb[Gg]L/**
+
+# Ignore the Gradle/Android files when building for mobile
+/*.apk
+/*.aab
+/[Aa]ssets/[Pp]lugins/Android/.gradle
+
+# Ignore other temporary files
+/Assets/Plugins/Editor/AddressableAssetsSettings.asset
+/[Ll]ibrary/ScriptAssemblies/
+/[Ll]ibrary/PackageCache/
+
+# Ignore Unity settings for local machine
+/ProjectSettings/ProjectSettings.asset
+/ProjectSettings/UnityConnectSettings.asset
+
+# Rider IDE files
+.idea/
+.idea/*
+/[Uu]serSettings/
+/.vscode/
+
+# Ignore the Builds directory
+/Build/
